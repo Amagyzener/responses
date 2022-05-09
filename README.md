@@ -30,25 +30,27 @@
     }
 
 ### Ответ (200)
-{
-    "user": {
-        "username": "testusername",
-        "email": "test-mail@mail.com",
-        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzhmZDM2ZmQyMTFjMjEwMGRiMzU3YyIsInVzZXJuYW1lIjoidGVzdHVzZXJuYW1lIiwiZXhwIjoxNjU3MjgwNzQxLCJpYXQiOjE2NTIwOTY3NDF9.q3T0clG0kF-a9QztRNec_gI8MAqYZMLgwwMZoQ367kw"
+    {
+        "user": {
+            "username": "testusername",
+            "email": "test-mail@mail.com",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzhmZDM2ZmQyMTFjMjEwMGRiMzU3YyIsInVzZXJuYW1lIjoidGVzdHVzZXJuYW1lIiwiZXhwIjoxNjU3MjgwNzQxLCJpYXQiOjE2NTIwOTY3NDF9.q3T0clG0kF-a9QztRNec_gI8MAqYZMLgwwMZoQ367kw"
+        }
     }
-}
 
 ---
 
 ## GET https://kata.academy:8021/api/user
 ### Тело запроса
-(Не требуется.)
+    (Не требуется.)
 
 ### Authorization
 **Bearer Token**
 
 Token:
-    eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzhmZDM2ZmQyMTFjMjEwMGRiMzU3YyIsInVzZXJuYW1lIjoidGVzdHVzZXJuYW1lIiwiZXhwIjoxNjU3MjgwNzQxLCJpYXQiOjE2NTIwOTY3NDF9.q3T0clG0kF-a9QztRNec_gI8MAqYZMLgwwMZoQ367kw
+    eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.
+    eyJpZCI6IjYyNzhmZDM2ZmQyMTFjMjEwMGRiMzU3YyIsInVzZXJuYW1lIjoidGVzdHVzZXJuYW1lIiwiZXhwIjoxNjU3MjgwNzQxLCJpYXQiOjE2NTIwOTY3NDF9.
+    q3T0clG0kF-a9QztRNec_gI8MAqYZMLgwwMZoQ367kw
 
 ### Ответ (200)
     {
