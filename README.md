@@ -46,6 +46,7 @@
 
 ### Authorization
 **Bearer Token**
+
 Token:
     eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzhmZDM2ZmQyMTFjMjEwMGRiMzU3YyIsInVzZXJuYW1lIjoidGVzdHVzZXJuYW1lIiwiZXhwIjoxNjU3MjgwNzQxLCJpYXQiOjE2NTIwOTY3NDF9.q3T0clG0kF-a9QztRNec_gI8MAqYZMLgwwMZoQ367kw
 
